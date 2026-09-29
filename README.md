@@ -11,6 +11,6 @@
 </h2>
 <p>First enhancement of the Travlr project, goes over software design and engineering.</p>
 <h2>
-  <a href="">Link to Milestone 3</a>
+  <a href="https://github.com/jengle-99/jengle-99.github.io/tree/main/travlr-milestone%203">Link to Milestone 3</a>
 </h2>
 <p>Second enhancement of the Travelr project, goes over algorithms and data structure.</p>
