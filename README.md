@@ -4,7 +4,7 @@
 <h2>Milestone 1 Video</h2>
 <p>Video to go over my enhancement plan for the CS465 Travlr project.</p>
 <video width="100%" controls muted>
-  <source src="https://github.com/jengle-99/jengle-99.github.io/blob/main/CS%20499%20Milestone%20One.mp4" type="video/mp4">
+  <source src="CS 499 Milestone One.mp4" type="video/mp4">
 </video>
 <h2>
   <a href="https://github.com/jengle-99/jengle-99.github.io/tree/main/travlr-milestone%202">Link to Milestone 2</a>
