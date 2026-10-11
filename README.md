@@ -4,7 +4,7 @@
 <h2>Milestone 1 Video</h2>
 <p>Video to go over my enhancement plan for the CS465 Travlr project.</p>
 <video width="100%" controls muted>
-  <source src="CS 499 Milestone One.mp4" type="video/mp4">
+  <source src="milestone-1.mp4" type="video/mp4">
 </video>
 <h2>
   <a href="https://github.com/jengle-99/jengle-99.github.io/tree/main/travlr-milestone%202">Link to Milestone 2</a>
@@ -14,3 +14,7 @@
   <a href="https://github.com/jengle-99/jengle-99.github.io/tree/main/travlr-milestone%203">Link to Milestone 3</a>
 </h2>
 <p>Second enhancement of the Travelr project, goes over algorithms and data structure.</p>
+<h2>
+  <a href="https://github.com/jengle-99/jengle-99.github.io/tree/main/travlr-milestone%204">Link to Milestone 3</a>
+</h2>
+<p>Third enhancement of the Travelr project, goes over algorithms and data structure.</p>
