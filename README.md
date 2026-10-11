@@ -15,6 +15,6 @@
 </h2>
 <p>Second enhancement of the Travelr project, goes over algorithms and data structure.</p>
 <h2>
-  <a href="https://github.com/jengle-99/jengle-99.github.io/tree/main/travlr-milestone%204">Link to Milestone 3</a>
+  <a href="https://github.com/jengle-99/jengle-99.github.io/tree/main/travlr-milestone%204">Link to Milestone 4</a>
 </h2>
 <p>Third enhancement of the Travelr project, goes over algorithms and data structure.</p>
