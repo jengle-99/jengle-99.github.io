@@ -1,0 +1,55 @@
+const mongoose = require('mongoose');
+const crypto = require('crypto');
+const jwt = require('jsonwebtoken');
+const { EMAIL_PATTERN } = require('../database/constraints');
+
+const userSchema = new mongoose.Schema({
+    email: {
+        type: String,
+        unique: true,
+        required: true,
+        trim: true,
+        lowercase: true,
+        match: [EMAIL_PATTERN, 'A valid email address is required.']
+    },
+    name: {
+        type: String,
+        required: true,
+        trim: true
+    },
+    role: {
+        type: String,
+        enum: ['user', 'admin'],
+        default: 'user'
+    },
+    hash: String,
+    salt: String
+});
+
+userSchema.methods.setPassword = function (password) {
+    this.salt = crypto.randomBytes(16).toString('hex');
+    this.hash = crypto.pbkdf2Sync(password, this.salt,
+        1000, 64, 'sha512').toString('hex');
+};
+
+userSchema.methods.validPassword = function (password) {
+    const hash = crypto.pbkdf2Sync(password,
+        this.salt, 1000, 64, 'sha512').toString('hex');
+    return this.hash === hash;
+};
+
+userSchema.methods.generateJWT = function () {
+    return jwt.sign(
+        {
+            _id: this._id,
+            email: this.email,
+            name: this.name,
+            role: this.role || 'user'
+        },
+        process.env.JWT_SECRET,
+        { expiresIn: '1h' }
+    );
+};
+
+const User = mongoose.model('users', userSchema);
+module.exports = User;
