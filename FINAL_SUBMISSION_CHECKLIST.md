@@ -3,10 +3,10 @@
 ## GitHub Pages
 
 - [x] Copy the contents of this package into the `jengle-99.github.io` repository.
-- [ ] Commit and push the files to the repository's publishing branch.
-- [ ] Confirm the site loads at `https://jengle-99.github.io`.
-- [ ] Verify navigation from the home page to the code review, artifact, narratives, and AI-use acknowledgment.
-- [ ] Confirm the original and enhanced Travlr source folders are visible in the repository.
+- [x] Commit and push the files to the repository's publishing branch.
+- [x] Confirm the site loads at `https://jengle-99.github.io`.
+- [x] Verify navigation from the home page to the code review, artifact, narratives, and AI-use acknowledgment.
+- [x] Confirm the original and enhanced Travlr source folders are visible in the repository.
 
 ## Required Final Project Content
 
@@ -24,16 +24,16 @@
 
 ## Final Course Submission
 
-- [ ] Submit all required technical artifact files, including original and enhanced source.
-- [ ] Submit all milestone narratives as Word documents.
-- [ ] Submit the Professional Self-Assessment.
-- [ ] Submit the code-review video or its required submission link/file.
-- [ ] Submit the GitHub Pages URL: `https://jengle-99.github.io`.
+- [x] Submit all required technical artifact files, including original and enhanced source.
+- [x] Submit all milestone narratives as Word documents.
+- [x] Submit the Professional Self-Assessment.
+- [x] Submit the code-review video or its required submission link/file.
+- [x] Submit the GitHub Pages URL: `https://jengle-99.github.io`.
 
 ## Final Quality Check
 
-- [ ] Confirm no `.env` file, passwords, JWT secrets, API keys, or other credentials are present.
-- [ ] Confirm no `node_modules`, `.git`, build caches, or unnecessary generated files are committed.
-- [ ] Run the final Travlr test suite in the enhanced artifact.
-- [ ] Check all links after GitHub Pages finishes publishing.
-- [ ] Review the portfolio on desktop and mobile-width browser windows for readability.
+- [x] Confirm no `.env` file, passwords, JWT secrets, API keys, or other credentials are present.
+- [x] Confirm no `node_modules`, `.git`, build caches, or unnecessary generated files are committed.
+- [x] Run the final Travlr test suite in the enhanced artifact.
+- [x] Check all links after GitHub Pages finishes publishing.
+- [x] Review the portfolio on desktop and mobile-width browser windows for readability.
